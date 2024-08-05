@@ -1,0 +1,13 @@
+diff --git a/Makefile b/Makefile
+index 97aadc2..316e02b 100644
+--- a/Makefile
++++ b/Makefile
+@@ -10,3 +10,8 @@ fuseloop: fuseloop.c
+ .PHONY: clean
+ clean:
+ 	-rm -f fuseloop
++
++.PHONY: install
++install: fuseloop
++	mkdir -p $(DESTDIR)/usr/bin
++	$(INSTALL) -m 755 $^ $(DESTDIR)/usr/bin

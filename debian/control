@@ -1,0 +1,18 @@
+Source: fuseloop
+Section: misc
+Priority: optional
+Maintainer: Pexip AS <packaging@pexip.com>
+Standards-Version: 4.3.0
+Build-Depends:
+ debhelper-compat (= 13),
+ libfuse-dev,
+ pkg-config
+Homepage: https://github.com/jmattsson/fuseloop
+Vcs-Browser: https://github.com/jmattsson/fuseloop
+Vcs-Git: https://github.com/jmattsson/fuseloop.git
+Description: A small loopback mount utility using FUSE.
+
+Package: fuseloop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: ${source:Synopsis}
