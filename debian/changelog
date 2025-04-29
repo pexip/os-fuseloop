@@ -1,3 +1,9 @@
+fuseloop (1.0.3+git20201014.3458721-1+pexip25u1) pexip-trixie; urgency=medium
+
+  * Initial trixie build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Tue, 29 Apr 2025 22:31:57 +0100
+
 fuseloop (1.0.3+git20201014.3458721-1pexip1) pexip; urgency=medium
 
   * Initial packaging
