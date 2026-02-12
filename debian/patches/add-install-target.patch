@@ -1,3 +1,5 @@
+Install the fuseloop binary into the package
+
 diff --git a/Makefile b/Makefile
 index 97aadc2..316e02b 100644
 --- a/Makefile
